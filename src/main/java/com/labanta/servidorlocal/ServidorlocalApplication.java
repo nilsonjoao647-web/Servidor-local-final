@@ -6,9 +6,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class  	ServidorlocalApplication {
+public class ServidorlocalApplication {
 
-	public static void main(String[] args) { SpringApplication.run(ServidorlocalApplication.class, args);}
+	public static void main(String[] args) {
+		SpringApplication.run(ServidorlocalApplication.class, args);
+	}
 
 	@Bean
 	public RestTemplate restTemplate() {

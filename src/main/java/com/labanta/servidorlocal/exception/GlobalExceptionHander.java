@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
-public class GlobalExceptionHander extends RuntimeException {
+public class GlobalExceptionHander {
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHander.class);
 
 
